@@ -9,3 +9,5 @@ df = pd.read_csv("data.csv")
 inputs = df.iloc[:,:-1] #remove the sales outcomes from the input data
 
 targets = df.iloc[:,-1:] #get sales outputs
+
+#this is a new edit to my file
